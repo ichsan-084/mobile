@@ -10,7 +10,8 @@ class HistoryView extends StatelessWidget {
       body: Align(
         alignment: Alignment.topCenter, // Posisikan di bagian atas tengah
         child: Padding(
-          padding: const EdgeInsets.only(top: 40), // Tambahkan padding untuk jarak dari atas
+          padding: const EdgeInsets.only(
+              top: 40), // Tambahkan padding untuk jarak dari atas
           child: buildHistoryView(),
         ),
       ),
